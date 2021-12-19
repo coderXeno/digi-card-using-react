@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter,cursive;
+}
+
+body{
+    background: #23252C;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 65px;
+    top: 53px;
+}
+
+.doggo{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 160px;
+    top: 44px;
+}
+
+.image-div{
+    background-color: #1A1B21;
+}
+
+.name{
+    position: absolute;
+    width: 178.06px;
+    height: 25.81px;
+    left: 230px;
+    top: 382px;
+    font-weight: 700; 
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.job{
+    position: absolute;
+    padding-top: 30px;
+    width: 178.06px;
+    height: 14.19px;
+    left: 242px;
+    top: 414px;
+    color: #F3BF99;
+}
+
+.web{
+    position: absolute;
+    width: 178.06px;
+    height: 14.19px;
+    left: 245px;
+    top: 510px;
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+.buttons{
+    display: flex;
+}
+
+.btn-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    top: 570px;
+    left: 200px;    
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: #374151;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    transition: all .2s ease-in-out; 
+}
+
+.btn-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    top: 570px;
+    left: 340px;   
+    background: #5093E2; 
+    border-radius: 15px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    transition: all .2s ease-in-out; 
+}
+
+.btn-1:hover{
+    background: #4B0082; 
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: rgba(160,160,160, 0.1) 0px 8px 24px, rgba(160,160,160, 0.1) 0px 16px 56px, rgba(160,160,160, 0.1) 0px 24px 80px;    
+}
+
+.btn-2:hover{
+    background: #FFFFFF;  
+    color: #374151;      
+    transform: scale(1.1);
+    box-shadow: rgba(250, 240, 230, 0.1) 0px 8px 24px, rgba(250, 240, 230, 0.1) 0px 16px 56px, rgba(250, 240, 230, 0.1) 0px 24px 80px;
+}
+
+.fa-envelope{
+    padding-right: 5px;
+    color: #1E1F26;
+}
+
+.fa-linkedin{
+    padding-right: 5px;
+}
+
+.body{
+    background: #1A1B21;
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 160px;
+    top: 630px;
+}
+
+.info-1{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 17px;
+    top: 2px;
+    color: #F5F5F5;
+    font-weight: bold;    
+}
+
+.intro-1{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 17px;
+    top: 35px;
+    color: #DCDCDC;
+}
+
+.info-2{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    left: 17px;
+    top: 220px;
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+.intro-2{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    left: 17px;
+    top: 250px;
+    color: #DCDCDC;
+}
+
+.foot{
+    position: absolute;
+    background: #161619;
+    width: 317px;
+    height: 64px;
+    left: 160px;
+    top: 1030px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fa-github{
+    position: absolute;
+    left: 28.91%;
+    right: 65;
+    top: 39.8%;
+    bottom: 7;
+    background: #918E9B;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.fa-github:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(250, 240, 230, 0.1) 0px 8px 24px, rgba(250, 240, 230, 0.1) 0px 16px 56px, rgba(250, 240, 230, 0.1) 0px 24px 80px;
+}
+
+.fa-twitter{
+    position: absolute;
+    left: 40.91%;
+    right: 65;
+    top: 39.8%;
+    bottom: 7;
+    background: #918E9B;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.fa-twitter:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(250, 240, 230, 0.1) 0px 8px 24px, rgba(250, 240, 230, 0.1) 0px 16px 56px, rgba(250, 240, 230, 0.1) 0px 24px 80px;
+}
+
+.fa-instagram{
+    position: absolute;
+    left: 65.91%;
+    right: 65;
+    top: 39.8%;
+    bottom: 7;
+    background: #918E9B;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.fa-instagram:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(250, 240, 230, 0.1) 0px 8px 24px, rgba(250, 240, 230, 0.1) 0px 16px 56px, rgba(250, 240, 230, 0.1) 0px 24px 80px;
+}
+
+.fa-facebook{
+    position: absolute;
+    left: 53.91%;
+    right: 65;
+    top: 39.8%;
+    bottom: 7;
+    background: #918E9B;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.fa-facebook:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(250, 240, 230, 0.1) 0px 8px 24px, rgba(250, 240, 230, 0.1) 0px 16px 56px, rgba(250, 240, 230, 0.1) 0px 24px 80px;
+}
